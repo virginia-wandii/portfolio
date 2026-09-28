@@ -1,0 +1,15 @@
+:root {
+    --color-bg-main: #13171c;
+    --color-bg-card: #1c2127;
+    --color-bg-hover: #252b33;
+    --color-accent: #f59eob; /*Golden Yellow / Light Warm Orange */
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #9ca3af;
+    --content-width: 1140px;
+    --border-radius-standard: 12px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
