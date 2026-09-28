@@ -93,5 +93,10 @@ body {
     margin-bottom: 50px;
     font-weight: 700;
 }
+.hero-section {
+    padding: 40px 20px 80px 20px;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+}
 
 
