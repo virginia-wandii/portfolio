@@ -198,4 +198,13 @@ skill-icon-holder {
     line-height: 1.8;
     margin-bottom: 35px;
 }
+.contact-container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
