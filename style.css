@@ -182,5 +182,20 @@ hero-container {
     margin-bottom: 20px;
     
 }
-
+skill-icon-holder {
+    font-size: 2.8rem;
+    color: var(--color-accent);
+    margin-bottom: 15px;
+}
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-text {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
 
