@@ -148,4 +148,17 @@ hero-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
+.project-card, .skill-card {
+    
+    background-color: var(--color-bg-card);
+    border-radius: var(--border-radius-standard);
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.project-card:hover, .skill-card:hover {
+    transform: translate(-5px);
+    background-color: var(--color-bg-hover);
+}
 
