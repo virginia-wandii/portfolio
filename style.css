@@ -113,5 +113,21 @@ hero-container {
     margin-bottom: 15px;
     font-weight: 800;
 }
-
+.text-highlight {
+    color: var(--color-accent);
+}
+.hero-subtitle {
+    color:var(--color-text-secondary);
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+.hero-actions {
+    display: flex ;
+    gap: 15px;
+}
+.hero-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
 
