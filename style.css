@@ -82,4 +82,9 @@ body {
     max-width: var(--max-content-width);
     margin: 0 auto;
 }
+.bg-alt {
+    max-width: 100%;
+    background-color: #181d24;
+}
+
 
