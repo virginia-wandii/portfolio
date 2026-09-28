@@ -30,4 +30,8 @@ body {
     max-width: 100%;
     margin: 0 auto;
 }
+.logo-icon {
+    font-size: 1.8rem;
+    color: var(--color-accent)
+}
 
