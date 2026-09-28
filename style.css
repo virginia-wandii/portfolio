@@ -104,4 +104,13 @@ hero-container {
     justify-content: space-between;
     gap: 40px;
 }
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    line-height: 1.15;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
 
