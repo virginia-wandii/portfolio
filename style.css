@@ -207,4 +207,19 @@ skill-icon-holder {
     flex-direction: column;
     gap: 20px;
 }
+form-group-input, .form-group textarea {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--color-bg-card);
+    border: 1px solid #2e3742;
+    border-radius: 6px;
+    color: var(--color-text-primary);
+    font-size: 100%;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+.form-group-input:focus, .form-group textarea:focus {
+    border-color: var(--color-accent);
+}
+
 
