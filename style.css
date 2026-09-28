@@ -98,5 +98,10 @@ body {
     max-width: var(--max-content-width);
     margin: 0 auto;
 }
-
+hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
 
