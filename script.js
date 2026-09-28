@@ -23,3 +23,17 @@ const projects = [
       githubUrl:"https://github.com/virginia-wandii/portfolio.git" 
     },
 ];
+// render skills onto the page
+function renderSkills() {
+const skillsContainer = document.getElementById('skills-container');
+if (!skillsContainer) return;
+skillsContainer.innerHTML ="";
+skills.forEach((skillName) => {
+    const skillCard =document.createElement('div');
+    skillCard.className ='card skill-card';
+    //generates the layout cards
+    skillCard.innerHTML = `<h3>${skillName}</h3>`;
+    //Append to the section grid
+    skillsContainer.appendChild(skillCard);
+});
+}
