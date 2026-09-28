@@ -37,3 +37,28 @@ skills.forEach((skillName) => {
     skillsContainer.appendChild(skillCard);
 });
 }
+//projects rendering function
+function renderProjects() {
+const projectContainer = document.getElementById('projects-container');
+if (!projectContainer) return;
+projectContainer.innerHTML ='';
+
+projects.forEach(project => {
+    const projectCard = document.createElement('div');
+    projectCard.className = 'card project-card';
+
+projectCard.innerHTML =`
+<h3>${project.title}</h3>
+<p>${project.description}</p>
+<a href="${project.githubUrl}" target="_blank" class="btn btn-solid" style="text-decoration:none;displa:inline-block;margin-top: 10px;">
+<button class="btn-primary" >View on GitHub</button>
+</a>
+`;
+projectContainer.appendChild(projectCard);
+});
+}
+//wait for the webpage layout to load
+document.addEventListener("DOMContentLoaded", () => {
+    renderSkills();
+    renderProjects();
+});
